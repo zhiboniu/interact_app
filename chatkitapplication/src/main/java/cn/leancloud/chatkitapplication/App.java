@@ -5,6 +5,7 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.Toast;
 
 import cn.leancloud.cache.PersistenceUtil;
@@ -30,6 +31,7 @@ public class App extends Application {
   //啦啦啦啦啦
   private final String APP_ID = "dYRQ8YfHRiILshUnfFJu2eQM-gzGzoHsz";
   private final String APP_KEY = "ye24iIK6ys8IvaISMC4Bs5WK";
+  private Button bt;
 
   @Override
   public void onCreate() {
