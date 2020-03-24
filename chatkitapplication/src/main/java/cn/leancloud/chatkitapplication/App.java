@@ -31,7 +31,7 @@ public class App extends Application {
   //啦啦啦啦啦
   private final String APP_ID = "dYRQ8YfHRiILshUnfFJu2eQM-gzGzoHsz";
   private final String APP_KEY = "ye24iIK6ys8IvaISMC4Bs5WK";
-  private Button bt;
+  private final String nn =  "";
 
   @Override
   public void onCreate() {
