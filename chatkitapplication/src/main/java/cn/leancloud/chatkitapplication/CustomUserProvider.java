@@ -29,11 +29,14 @@ public class CustomUserProvider implements LCChatProfileProvider {
 
   // 此数据均为 fake，仅供参考
   static {
+
     partUsers.add(new LCChatKitUser("Tom", "Tom", "http://www.avatarsdb.com/avatars/tom_and_jerry2.jpg"));
     partUsers.add(new LCChatKitUser("Jerry", "Jerry", "http://www.avatarsdb.com/avatars/jerry.jpg"));
     partUsers.add(new LCChatKitUser("Harry", "Harry", "http://www.avatarsdb.com/avatars/young_harry.jpg"));
     partUsers.add(new LCChatKitUser("William", "William", "http://www.avatarsdb.com/avatars/william_shakespeare.jpg"));
     partUsers.add(new LCChatKitUser("Bob", "Bob", "http://www.avatarsdb.com/avatars/bath_bob.jpg"));
+    partUsers.add(new LCChatKitUser("liuchuang", "liuchuang", "http://www.avatarsdb.com/avatars/bath_bob.jpg"));
+
   }
 
   @Override

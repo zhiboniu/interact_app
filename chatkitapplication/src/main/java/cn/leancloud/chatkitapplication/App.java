@@ -29,9 +29,9 @@ public class App extends Application {
 
   // 此 id 与 key 仅供测试使用
   //啦啦啦啦啦
-  private final String APP_ID = "dYRQ8YfHRiILshUnfFJu2eQM-gzGzoHsz";
-  private final String APP_KEY = "ye24iIK6ys8IvaISMC4Bs5WK";
-  private final String nn =  "";
+  private final String APP_ID = "RbAfI9tcAvBbUVrKN07NaFYt-gzGzoHsz";
+  private final String APP_KEY = "E4rvQDhk4wS5gPl6UHYhiVCT";
+
 
   @Override
   public void onCreate() {
@@ -50,7 +50,7 @@ public class App extends Application {
     LCChatKit.getInstance().setProfileProvider(CustomUserProvider.getInstance());
     AVOSCloud.setLogLevel(AVLogger.Level.DEBUG);
 //    AVOSCloud.useAVCloudUS();
-    LCChatKit.getInstance().init(getApplicationContext(), APP_ID, APP_KEY, "https://dyrq8yfh.lc-cn-n1-shared.com");
+    LCChatKit.getInstance().init(getApplicationContext(), APP_ID, APP_KEY, "https://rbafi9tc.lc-cn-n1-shared.com");
 
     PushService.setDefaultPushCallback(this, MainActivity.class);
     PushService.setAutoWakeUp(true);
